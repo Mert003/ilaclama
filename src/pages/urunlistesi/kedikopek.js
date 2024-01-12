@@ -2,11 +2,12 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ag715 from "../../images/ag715.jpg";
+import {Link} from "react-router-dom"
 const TwoColumnLayout = () => {
     return (
         <Container className='my-5'>
          
-
+         <Link to="/ag715">
             <Row className='px-5'>
                 <Col md={3}>
                     {/* Left Column with Image */}
@@ -20,6 +21,7 @@ const TwoColumnLayout = () => {
                 </Col>
                 <Col md={9}>
                     {/* Right Column with Header and List */}
+                   
                     <div className='column'>
                     <h3>AG-715 Ultrasonik Atak Kedi Köpek Kovucu</h3>
                         <ul>
@@ -31,8 +33,9 @@ const TwoColumnLayout = () => {
                             <li>Sessizdir.</li>
                         </ul>
                     </div>
+                
                 </Col>
-            </Row>
+            </Row>    </Link>
         </Container>
     );
 };
