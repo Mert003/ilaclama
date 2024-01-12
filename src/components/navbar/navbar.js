@@ -21,7 +21,7 @@ const NavigationBar = () => {
             <Nav.Link href="#products">Kuş Kovucu Sistemler</Nav.Link>
             <Nav.Link href="#products">Kuş Engelleyiciler</Nav.Link>
             <Nav.Link href="#products">Kedi Köpek kovucular</Nav.Link>
-            <Nav.Link href="#about">Hakkımızda</Nav.Link>
+            <Nav.Link href="/hakkimizda">Hakkımızda</Nav.Link>
             <Nav.Link href="#contact">İletişim</Nav.Link>
           </Nav>
         </Navbar.Collapse>

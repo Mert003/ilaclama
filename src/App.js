@@ -2,6 +2,7 @@ import './App.css';
 import { Routes , Route } from 'react-router-dom';
 import NavigationBar from './components/navbar/navbar';
 import Home from './pages/home';
+import Hakkimizda from './pages/hakkimizda';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <NavigationBar />
           <Routes  forceRefresh={true}>
                <Route path="/" element={<Home /> } />
+               <Route path="/hakkimizda" element={<Hakkimizda /> } />
               
           </Routes>
     </div>
