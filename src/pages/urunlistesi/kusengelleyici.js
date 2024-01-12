@@ -12,7 +12,7 @@ const Kusengelleyici = () => {
           <div className='column'>
             <img
               src={foto} // Replace with your actual image path
-              alt='Image'
+              alt='Imsdfsdfsdage'
               style={{ width: '100%', height: 'auto' }}
             />
           </div>

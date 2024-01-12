@@ -12,16 +12,16 @@ function Footer() {
 
 
       <Row className="py-3">
-       
-      <Col md={4}>
+
+        <Col md={4}>
           {/* Menu Column */}
           <h5>Ürünlerimiz</h5>
           <ul className="list-unstyled">
-            <Link activeClass="active" to="home" offset={50}><li>Fare Haşere Kovucu </li></Link>
+            <Link to="/farehasere" offset={50}><li>Fare Haşere Kovucu </li></Link>
 
-            <Link activeClass="active" to="services" offset={50}><li>Kuş Kovucu Sistemler</li></Link>
-            <Link activeClass="active" to="gallery" offset={50}><li>Kuş Engelleyiciler</li></Link>
-            <Link activeClass="active" to="gallery" offset={50}><li>Kedi Köpek Kovucu</li></Link>
+            <Link to="/kuskovucu" offset={50}><li>Kuş Kovucu Sistemler</li></Link>
+            <Link to="/kusengelleyici" offset={50}><li>Kuş Engelleyiciler</li></Link>
+            <Link to="/kedikopekkovucu" offset={50}><li>Kedi Köpek Kovucu</li></Link>
           </ul>
         </Col>
 
@@ -29,10 +29,10 @@ function Footer() {
           {/* Menu Column */}
           <h5>Menu</h5>
           <ul className="list-unstyled">
-            <Link activeClass="active" to="home" offset={50}><li>Home</li></Link>
+            <Link to="/" offset={50}><li>Anasayfa</li></Link>
 
-            <Link activeClass="active" to="services" offset={50}><li>Services</li></Link>
-            <Link activeClass="active" to="gallery" offset={50}><li>Gallery</li></Link>
+            <Link to="/iletisim" offset={50}><li>İletişim</li></Link>
+            <Link to="/hakkimizda" offset={50}><li>Hakkımızda</li></Link>
           </ul>
         </Col>
         <Col md={4}>
@@ -44,14 +44,14 @@ function Footer() {
             <li><a href="/support" className="text-decoration-none">Support</a></li>
           </ul>
         </Col>
-       
-       
+
+
       </Row>
       <Row>
         <Col>
-        <p>© Copyright
-Bu sayfada yer alan bilgiler Akgen Kimya San. LTD®’e aittir. Sayfada yer alan fotoĝraf ve bilgiler izinsiz kopyalanamaz ve hernagi bir şekilde
-yayınlanamaz</p>
+          <p>© Copyright
+            Bu sayfada yer alan bilgiler Akgen Kimya San. LTD®’e aittir. Sayfada yer alan fotoĝraf ve bilgiler izinsiz kopyalanamaz ve hernagi bir şekilde
+            yayınlanamaz</p>
         </Col>
       </Row>
     </footer>
