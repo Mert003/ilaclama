@@ -39,9 +39,9 @@ function Footer() {
           {/* Privacy Policy Column */}
           <h5>Privacy Policy</h5>
           <ul className="list-unstyled">
-            <li><a href="/terms" className="text-decoration-none">Terms of Service</a></li>
-            <li><a href="/cookies" className="text-decoration-none">Cookie Policy</a></li>
-            <li><a href="/support" className="text-decoration-none">Support</a></li>
+            <li><a href="/" className="text-decoration-none">Terms of Service</a></li>
+            <li><a href="/" className="text-decoration-none">Cookie Policy</a></li>
+            <li><a href="/" className="text-decoration-none">Support</a></li>
           </ul>
         </Col>
 
