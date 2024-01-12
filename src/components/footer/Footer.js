@@ -47,6 +47,13 @@ function Footer() {
        
        
       </Row>
+      <Row>
+        <Col>
+        <p>© Copyright
+Bu sayfada yer alan bilgiler Akgen Kimya San. LTD®’e aittir. Sayfada yer alan fotoĝraf ve bilgiler izinsiz kopyalanamaz ve hernagi bir şekilde
+yayınlanamaz</p>
+        </Col>
+      </Row>
     </footer>
   );
 }

@@ -5,6 +5,10 @@
 h1,h2,h3,h4,h5{
   font-family: "Poppins" , sans-serif;
 }
-p,a{
+p,a,li{
   font-family: "Open sans" , sans-serif;
+}
+li{
+  list-style: none;
+  margin-top: 20px;
 }

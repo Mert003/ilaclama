@@ -6,6 +6,7 @@ import Hakkimizda from './components/hakkimizda';
 import Footer from './components/footer/Footer';
 import Farekovucu from './pages/urunlistesi/farekovucu';
 import Kuskovucu from './pages/urunlistesi/kuskovucu';
+import Kedikopek from "./pages/urunlistesi/kedikopek";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
                <Route path="/hakkimizda" element={<Hakkimizda /> } />
                <Route path="/farehasere" element={<Farekovucu /> } />
                <Route path="/kuskovucu" element={<Kuskovucu /> } />
+               <Route path="/kedikopekkovucu" element={<Kedikopek /> } />
               
           </Routes>
       <Footer />
