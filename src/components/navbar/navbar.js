@@ -17,7 +17,8 @@ const NavigationBar = () => {
         />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link href="#home">Anasayfa</Nav.Link>        
+            <Nav.Link href="#home">Anasayfa</Nav.Link>      
+            <Nav.Link href="#products">Fare Haşere Kovucu</Nav.Link>  
             <Nav.Link href="#products">Kuş Kovucu Sistemler</Nav.Link>
             <Nav.Link href="#products">Kuş Engelleyiciler</Nav.Link>
             <Nav.Link href="#products">Kedi Köpek kovucular</Nav.Link>

@@ -1,0 +1,64 @@
+[
+    {
+      "ad": "AG-450 Ultrasonik Frekans Fare Kus ve Yarasa Kovucu Cihaz",
+      "tur":"fare",
+      "resim": "images/ag_450.jpg",
+      "ozellikler": [
+        "Fare, sıçan gibi kemirgenlerlerle yarasa mücadelesinde etkilidir.",
+        "Cihaz etkisini fare kovucu ultrasonik frekans ses dalgaları yayar",
+        "Kapsama alanı: 720 m2",
+        "Evlerde, okullarda ve büro benzeri  ufak mekanlarda kullanım amacıyla tasarlanmıştır.",
+        "Cihazlar kullanıma hazır. Cihazi fişe takmak yeterli.Kullanma süresince cihazlar herhangi bir özel bakıma gerek yoktur."
+      ],
+      "link": "https://example.com/urunler/ultrasonik-kus-kovucu"
+    },
+    {
+        "ad": "Ultrasonik Kuş Kovucu",
+        "resim": "https://example.com/images/ultrasonik_kus_kovucu.jpg",
+        "ozellikler": [
+          "Etkili ultrasonik ses teknolojisi",
+          "Çeşitli kuş türleri ve yarasalar için uygundur",
+          "Hassas sensörlerle çalışır",
+          "Su geçirmez tasarım",
+          "Kolay kurulum ve kullanım"
+        ],
+        "link": "https://example.com/urunler/ultrasonik-kus-kovucu"
+      },
+      {
+        "ad": "Ultrasonik Kuş Kovucu",
+        "resim": "https://example.com/images/ultrasonik_kus_kovucu.jpg",
+        "ozellikler": [
+          "Etkili ultrasonik ses teknolojisi",
+          "Çeşitli kuş türleri ve yarasalar için uygundur",
+          "Hassas sensörlerle çalışır",
+          "Su geçirmez tasarım",
+          "Kolay kurulum ve kullanım"
+        ],
+        "link": "https://example.com/urunler/ultrasonik-kus-kovucu"
+      },
+      {
+        "ad": "Ultrasonik Kuş Kovucu",
+        "resim": "https://example.com/images/ultrasonik_kus_kovucu.jpg",
+        "ozellikler": [
+          "Etkili ultrasonik ses teknolojisi",
+          "Çeşitli kuş türleri ve yarasalar için uygundur",
+          "Hassas sensörlerle çalışır",
+          "Su geçirmez tasarım",
+          "Kolay kurulum ve kullanım"
+        ],
+        "link": "https://example.com/urunler/ultrasonik-kus-kovucu"
+      },
+      {
+        "ad": "Ultrasonik Kuş Kovucu",
+        "resim": "https://example.com/images/ultrasonik_kus_kovucu.jpg",
+        "ozellikler": [
+          "Etkili ultrasonik ses teknolojisi",
+          "Çeşitli kuş türleri ve yarasalar için uygundur",
+          "Hassas sensörlerle çalışır",
+          "Su geçirmez tasarım",
+          "Kolay kurulum ve kullanım"
+        ],
+        "link": "https://example.com/urunler/ultrasonik-kus-kovucu"
+      }
+      
+    ]
