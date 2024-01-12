@@ -3,6 +3,7 @@ import { Routes , Route } from 'react-router-dom';
 import NavigationBar from './components/navbar/navbar';
 import Home from './pages/home';
 import Hakkimizda from './pages/hakkimizda';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
                <Route path="/hakkimizda" element={<Hakkimizda /> } />
               
           </Routes>
+      <Footer />
+
     </div>
   );
 }

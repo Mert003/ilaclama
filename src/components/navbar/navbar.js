@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
+import "./navbar.css";
 
 // Your Navbar component
 const NavigationBar = () => {
@@ -18,13 +19,13 @@ const NavigationBar = () => {
         />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-            <Link to="/">Anasayfa</Link>      
-            <Link to="/farehasare">Fare Haşere Kovucu</Link>  
-            <Link to="/kuskovucu">Kuş Kovucu Sistemler</Link>
-            <Link to="/kusengelleyici">Kuş Engelleyiciler</Link>
-            <Link to="/kedikopekkovucu">Kedi Köpek kovucular</Link>
-            <Link to="/hakkimizda">Hakkımızda</Link>
-            <Link to="/iletisim">İletişim</Link>
+            <Link to="/" className="nav-link">Anasayfa </Link>
+            <Link to="/farehasare" className="nav-link">Fare Haşere Kovucu </Link>
+            <Link to="/kuskovucu" className="nav-link">Kuş Kovucu Sistemler </Link>
+            <Link to="/kusengelleyici" className="nav-link">Kuş Engelleyiciler </Link>
+            <Link to="/kedikopekkovucu" className="nav-link">Kedi Köpek kovucular </Link>
+            <Link to="/hakkimizda" className="nav-link">Hakkımızda </Link>
+            <Link to="/iletisim" className="nav-link">İletişim</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

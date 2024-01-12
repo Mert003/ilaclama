@@ -10,28 +10,28 @@ const Hero = () => {
     <Container className='my-4'>
     
       <Row >
-      <Col className='col-12 col-md-4' >
+      <Col className='col-12 col-md-6' >
           <Image src={kusengelleyici} alt="Image 2" fluid />
         
           <h3>Fare Haşere Kovucu</h3>
           <p>Fare ve haşere kovucu sistemlerimizle ev veya işyerinizde doğal ve çevre dostu bir koruma sağlayın. Yenilikçi teknolojimiz ve güvenilir tasarımlarımız, zararlı haşareler ve farelere karşı etkili bir savunma sunar. </p>
      
         </Col>
-        <Col className='col-12 col-md-4' >
+        <Col className='col-12 col-md-6' >
           <Image src={kuskovucu} alt="Image 1" fluid  />
           
           <h3>Kuş Kovucu Sistemler</h3>
           <p>Haşarelere karşı etkili kuş kovucu sistemlerimizle doğal ve çevre dostu bir koruma sağlayın. Yüksek teknoloji ve güvenilir tasarımlarımız, zararlı haşarelerle mücadelede etkin bir çözüm sunar. </p>
        
         </Col>
-        <Col className='col-12 col-md-4' >
+        <Col className='col-12 col-md-6 my-5' >
           <Image src={kusengelleyici} alt="Image 2" fluid />
         
           <h3>Kuş Engelleyiciler</h3>
           <p>Kuş engelleyici sistemlerimizle çatılarınızı, binalarınızı ve diğer alanlarınızı kuşlardan koruyun. Yenilikçi tasarımlarımız ve etkili teknolojimizle, kuşların neden olduğu sorunları önleyin.</p>
      
         </Col>
-        <Col className='col-12 col-md-4' >
+        <Col className='col-12 col-md-6 my-5' >
           <Image src={kedi} alt="Image 3" fluid />
           
           <h3>Kedi Köpek Kovucu</h3>
