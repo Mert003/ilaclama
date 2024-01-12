@@ -7,27 +7,15 @@ import { FaFilePdf } from "react-icons/fa6";
 
 import samplePDF1 from "../../pdfs/Sonik_Atak_Kovucu.pdf";
 import samplePDF2 from "../../pdfs/UltrasonikAG450KullanmaKlavuzu.pdf";
+import {Link} from "react-router-dom";
+
 const Kuskovucu = () => {
-   /*  const onButtonClick = () => {
-    fetch("../../pdfs/Sonik_Atak_Kovucu.pdf").then((response) => {
-        response.blob().then((blob) => {
-         
-            // Creating new object of PDF file
-            const fileURL =
-                window.URL.createObjectURL(blob);
-                 
-            // Setting various property values
-            let alink = document.createElement("a");
-            alink.href = fileURL;
-            alink.download = "SamplePDF.pdf";
-            alink.click();
-        });
-    });
-} */
+ 
   return (
     <Container className='my-5'>
       <Row>
         <Col>
+        <Link to="/ultrasonik">
           <div className="column">
             <img src={ultrasonik} alt="fdsfsd 1" style={{width:"276px",height:"202px"}}/>
             <h3>Ultrasonik ve Sonik Atak Cihazi</h3>
@@ -50,8 +38,10 @@ const Kuskovucu = () => {
            
 
           </div>
+          </Link>
         </Col>
         <Col>
+        <Link to="/ag450">
           <div className="column">
             <img src={ag450} alt="fdsfsd 2" style={{width:"276px",height:"202px"}}/>
             <h3>Ultrasonik kus ve yarasa kovucu</h3>
@@ -73,6 +63,7 @@ const Kuskovucu = () => {
                 </a>  
 
           </div>
+          </Link>
         </Col>
       </Row>
 

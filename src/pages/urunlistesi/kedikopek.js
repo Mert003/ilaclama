@@ -5,11 +5,7 @@ import ag715 from "../../images/ag715.jpg";
 const TwoColumnLayout = () => {
     return (
         <Container className='my-5'>
-            <Row>
-                <Col>
-                    <h3>AG-715 Ultrasonik Atak Kedi Köpek Kovucu</h3>
-                </Col>
-            </Row>
+         
 
             <Row className='px-5'>
                 <Col md={3}>
@@ -25,7 +21,7 @@ const TwoColumnLayout = () => {
                 <Col md={9}>
                     {/* Right Column with Header and List */}
                     <div className='column'>
-
+                    <h3>AG-715 Ultrasonik Atak Kedi Köpek Kovucu</h3>
                         <ul>
                             <li>Ultrasonik frekans kedi köpek kovucu cihazlar insan kulağını rahatsız etmeyen ultrasonik sesler yayarak, Kedi, Köpek, Kurt, Tilki, Sansar vb hayvanları cihazın mote edildiği yerden kovmayı sağlar.</li>
                             <li>Köpek sahipleri ile saldırgan köpeklerden korunmak isteyen herkese Ultrasonik ses sayesinde köpek veya kedi ya olduğu yerde kalır ya da sizden uzaklaşır.</li>
