@@ -2,6 +2,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ultrasonik from "../../images/ultrasonik.jpg";
+import samplePDF from "../../pdfs/Sonik_Atak_Kovucu.pdf";
+import { FaFilePdf } from 'react-icons/fa';
 const Ultrasonik = () => {
     return (
         <Container className='my-5'>
@@ -32,7 +34,11 @@ const Ultrasonik = () => {
                             <li>Geceleyin otomatik olarak kapanma fonksiyonlu</li>
                             <li>Güvenli: İnsan ve çevre sağlığına zararsız</li>
                             <li>130° lik açılı kaplama alanında 15-20 metreye kadar etkili</li>
-
+                            <li>Kullanma Kılavuzu
+                                <a href={samplePDF} target="_blank" rel="noopener noreferrer">
+                                    <FaFilePdf size={30} />
+                                </a>
+                            </li>
 
                         </ul>
                     </div>

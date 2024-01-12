@@ -3,6 +3,8 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ag715 from "../../images/ag715.jpg";
 import {Link} from "react-router-dom"
+import samplePDF from "../../pdfs/SabitKediKopek.pdf";
+import { FaFilePdf } from 'react-icons/fa';
 const TwoColumnLayout = () => {
     return (
         <Container className='my-5'>
@@ -31,6 +33,11 @@ const TwoColumnLayout = () => {
                             <li>Darbelere karşı dayanıklı bir plastikten üretilmiştir.</li>
                             <li>Kedi ve köpekleri ultrasonik frekans ses teknolojisi ile zarar vermeden kovabilirsiniz.</li>
                             <li>Sessizdir.</li>
+                            <li>Kullanma Kılavuzu
+                                <a href={samplePDF} target="_blank" rel="noopener noreferrer">
+                                    <FaFilePdf size={30} />
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 

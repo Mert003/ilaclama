@@ -22,7 +22,7 @@ const Farekovucu = () => {
                         <p>Etki Alani: 720 m2</p>
                     </div></Link>
                 </Col>
-                <Col style={{ flex: "1" }}><Link to="/ag325">
+                <Col style={{ flex: "1" }}><Link to="/ag225">
                     <div className="column">
                         <img src={ag225} alt="fdsfsd 2" style={{ width: "224px", height: "143px", objectFit: "contain" }} />
                         <h3>AG-225 Ultrasonik Fare ve Haşere Kovucu Cihaz</h3>

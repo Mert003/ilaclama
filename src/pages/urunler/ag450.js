@@ -2,6 +2,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ag450 from "../../images/ag450.jpg";
+import samplePDF from "../../pdfs/UltrasonikAG450KullanmaKlavuzu.pdf";
+import { FaFilePdf } from 'react-icons/fa';
 const Ag450 = () => {
     return (
         <Container className='my-5'>
@@ -28,6 +30,11 @@ const Ag450 = () => {
                             <li>Kapsama alanı: 720 m2</li>
                             <li>Evlerde, okullarda ve büro benzeri ufak mekanlarda kullanım amacıyla tasarlanmıştır.</li>
                             <li>Cihazlar kullanıma hazır. Cihazi fişe takmak yeterli. Kullanma süresince cihazlar herhangi bir özel bakıma gerek yoktur.</li>
+                            <li>Kullanma Kılavuzu
+                                <a href={samplePDF} target="_blank" rel="noopener noreferrer">
+                                    <FaFilePdf size={30} />
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </Col>

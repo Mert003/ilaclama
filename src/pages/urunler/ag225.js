@@ -2,6 +2,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ag225 from "../../images/ag225.jpg";
+import samplePDF from "../../pdfs/UltrasonikAG125.pdf";
+import { FaFilePdf } from 'react-icons/fa';
 const Ag225 = () => {
     return (
         <Container className='my-5'>
@@ -30,6 +32,11 @@ const Ag225 = () => {
                             <li>Kullanıma hazır. Fişe takmak yeterli. Herhangi bir özel bakıma gerek yoktur.</li>
                             <li>Kullanma ömrü 7-10 sene</li>
                             <li>Radyo kadar ekonomik enerji tüketimi</li>
+                            <li>Kullanma Kılavuzu
+                                <a href={samplePDF} target="_blank" rel="noopener noreferrer">
+                                    <FaFilePdf size={30} />
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </Col>

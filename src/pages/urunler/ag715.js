@@ -2,6 +2,8 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import ag715 from "../../images/ag715.jpg";
+import samplePDF from "../../pdfs/SabitKediKopek.pdf";
+import { FaFilePdf } from 'react-icons/fa';
 const Ag715 = () => {
     return (
         <Container className='my-5'>
@@ -32,6 +34,11 @@ const Ag715 = () => {
                             <li>Ultrasonik ses hedef hayvana hiçbir zarar vermez.</li>
                             <li>Etki alanı: Cihazdan 10 metrelik mesafeye kadardır.</li>
                             <li>Elektrikle çalışır herhangi bir özel bakıma gerek yoktur.</li>
+                            <li>Kullanma Kılavuzu
+                                <a href={samplePDF} target="_blank" rel="noopener noreferrer">
+                                    <FaFilePdf size={30} />
+                                </a>
+                            </li>
 
                         </ul>
                     </div>
