@@ -29,7 +29,7 @@ const Kuskovucu = () => {
       <Row>
         <Col>
           <div className="column">
-            <img src={ultrasonik} alt="Image 1" style={{width:"276px",height:"202px"}}/>
+            <img src={ultrasonik} alt="fdsfsd 1" style={{width:"276px",height:"202px"}}/>
             <h3>Ultrasonik ve Sonik Atak Cihazi</h3>
             <ul>
               <li>Martı, Güvercin ve Karga gibi büyük yada ufak kuş türlerine etkili sonik ses</li>
@@ -53,7 +53,7 @@ const Kuskovucu = () => {
         </Col>
         <Col>
           <div className="column">
-            <img src={ag450} alt="Image 2" style={{width:"276px",height:"202px"}}/>
+            <img src={ag450} alt="fdsfsd 2" style={{width:"276px",height:"202px"}}/>
             <h3>Ultrasonik kus ve yarasa kovucu</h3>
             <ul>
               <li>Martı, Güvercin ve Karga gibi büyük yada ufak kuş ve yarasa türlerine etkili ultrasonik ses</li>

@@ -17,7 +17,7 @@ const TwoColumnLayout = () => {
                     <div className='column'>
                         <img
                             src={ag715} // Replace with your actual image path
-                            alt='Image'
+                            alt='fdsfsd'
                             style={{ width: '100%', height: 'auto' }}
                         />
                     </div>

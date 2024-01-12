@@ -15,21 +15,21 @@ const Farekovucu = () => {
             <Row className='d-flex'>
                 <Col style={{flex:"1"}}>
                     <div className="column">
-                        <img src={ag450} alt="Image 1" style={{width:"224px" , height:"143px" , objectFit:"contain"}}/>
+                        <img src={ag450} alt="fdsfsd 1" style={{width:"224px" , height:"143px" , objectFit:"contain"}}/>
                         <h3>AG-450 Ultrasonik Frekans Fare Kus ve Yarasa Kovucu Cihaz</h3>
                         <p>Etki Alani: 720 m2</p>
                     </div>
                 </Col>
                 <Col style={{flex:"1"}}>
                     <div className="column">
-                        <img src={ag225} alt="Image 2" style={{width:"224px" , height:"143px" , objectFit:"contain"}}/>
+                        <img src={ag225} alt="fdsfsd 2" style={{width:"224px" , height:"143px" , objectFit:"contain"}}/>
                         <h3>AG-225 Ultrasonik Fare ve Haşere Kovucu Cihaz</h3>
                         <p>Etki Alani: 225 m2</p>
                     </div>
                 </Col>
                 <Col style={{flex:"1"}}> 
                     <div className="column">
-                        <img src={ag325} alt="Image 3" style={{width:"224px" , height:"143px" , objectFit:"contain"}}/>
+                        <img src={ag325} alt="fdsfsd 3" style={{width:"224px" , height:"143px" , objectFit:"contain"}}/>
                         <h3>AG-325 Fare ve Hasere Kovucu Cihaz</h3>
                         <p>Etki Alani: 250 m2</p>
                     </div>
@@ -38,21 +38,21 @@ const Farekovucu = () => {
             <Row>
                 <Col>
                     <div className="column">
-                        <img src={ag715} alt="Image 1" style={{width:"224px" , height:"143px" , objectFit:"contain"}}/>
+                        <img src={ag715} alt="fdsfsd 1" style={{width:"224px" , height:"143px" , objectFit:"contain"}}/>
                         <h3>AG-715 Ultrasonik Kedi ve Köpek Kovucu Cihaz</h3>
                         <p>Etki Alani: 100 m2</p>
                     </div>
                 </Col>
                 <Col>
                     <div className="column">
-                        <img src={ag113} alt="Image 2" style={{width:"224px" , height:"143px" , objectFit:"contain"}}/>
+                        <img src={ag113} alt="fdsfsd 2" style={{width:"224px" , height:"143px" , objectFit:"contain"}}/>
                         <h3>AG-113s Ultrasonik Frekans Fare ve Hasere Kovucu</h3>
                         <p>Etki Alani: 150 m2</p>
                     </div>
                 </Col>
                 <Col>
                     <div className="column">
-                        <img src={ultrasonik} alt="Image 3" style={{width:"224px" , height:"143px" , objectFit:"contain"}}/>
+                        <img src={ultrasonik} alt="fdsfsd 3" style={{width:"224px" , height:"143px" , objectFit:"contain"}}/>
                         <h3>Ultrasonik ve Sonik Atak Kus Kovucu</h3>
                         <p>Etki Alani: 1000 m2</p>
                     </div>
