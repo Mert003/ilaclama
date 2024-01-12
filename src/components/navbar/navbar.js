@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 
 // Your Navbar component
 const NavigationBar = () => {
@@ -17,13 +18,13 @@ const NavigationBar = () => {
         />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link href="#home">Anasayfa</Nav.Link>      
-            <Nav.Link href="#products">Fare Haşere Kovucu</Nav.Link>  
-            <Nav.Link href="#products">Kuş Kovucu Sistemler</Nav.Link>
-            <Nav.Link href="#products">Kuş Engelleyiciler</Nav.Link>
-            <Nav.Link href="#products">Kedi Köpek kovucular</Nav.Link>
-            <Nav.Link href="/hakkimizda">Hakkımızda</Nav.Link>
-            <Nav.Link href="#contact">İletişim</Nav.Link>
+            <Link to="/">Anasayfa</Link>      
+            <Link to="/farehasare">Fare Haşere Kovucu</Link>  
+            <Link to="/kuskovucu">Kuş Kovucu Sistemler</Link>
+            <Link to="/kusengelleyici">Kuş Engelleyiciler</Link>
+            <Link to="/kedikopekkovucu">Kedi Köpek kovucular</Link>
+            <Link to="/hakkimizda">Hakkımızda</Link>
+            <Link to="/iletisim">İletişim</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

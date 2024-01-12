@@ -10,6 +10,13 @@ const Hero = () => {
     <Container className='my-4'>
     
       <Row >
+      <Col className='col-12 col-md-4' >
+          <Image src={kusengelleyici} alt="Image 2" fluid />
+        
+          <h3>Fare Haşere Kovucu</h3>
+          <p>Fare ve haşere kovucu sistemlerimizle ev veya işyerinizde doğal ve çevre dostu bir koruma sağlayın. Yenilikçi teknolojimiz ve güvenilir tasarımlarımız, zararlı haşareler ve farelere karşı etkili bir savunma sunar. </p>
+     
+        </Col>
         <Col className='col-12 col-md-4' >
           <Image src={kuskovucu} alt="Image 1" fluid  />
           
