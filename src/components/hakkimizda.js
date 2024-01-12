@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
+import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import HakkimizdaFoto from "../images/hakkimizda.jpg";
 
 const Hakkimizda = () => {
@@ -7,7 +8,7 @@ const Hakkimizda = () => {
         <Container className='my-5'>
             <Row>
                 {/* Left Column: Header and Description */}
-                <Col xs={12} md={6}>
+                <Col xs={12} md={6} className='order-2 order-md-1'>
                     <div>
                         <h2>Bizi Daha Yakından Tanıyın</h2>
                         <p>Atlas Kuş Konmaz Tel & Haşere Cihazları olarak, uzun yıllara dayanan deneyimimizle kaliteli çözümler sunuyoruz. Müşteri memnuniyetini öncelikli hedef olarak belirleyen bir ekibiz. Modern teknolojiyi kullanarak geliştirdiğimiz kuş konmaz teller ve haşere cihazları, çevre dostu ve etkili bir koruma sağlamaktadır.</p>
@@ -20,7 +21,7 @@ const Hakkimizda = () => {
                 </Col>
 
                 {/* Right Column: Image */}
-                <Col xs={12} md={6}>
+                <Col xs={12} md={6} className='order-1 order-md-2'>
                     <Image src={HakkimizdaFoto} alt="Your Image" fluid />
                 </Col>
             </Row>
