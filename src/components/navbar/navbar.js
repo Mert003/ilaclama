@@ -20,7 +20,7 @@ const NavigationBar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <Link to="/" className="nav-link">Anasayfa </Link>
-            <Link to="/farehasare" className="nav-link">Fare Haşere Kovucu </Link>
+            <Link to="/farehasere" className="nav-link">Fare Haşere Kovucu </Link>
             <Link to="/kuskovucu" className="nav-link">Kuş Kovucu Sistemler </Link>
             <Link to="/kusengelleyici" className="nav-link">Kuş Engelleyiciler </Link>
             <Link to="/kedikopekkovucu" className="nav-link">Kedi Köpek kovucular </Link>

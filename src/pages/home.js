@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from '../components/hero/hero'
-import Hakkimizda from './hakkimizda'
+import Hakkimizda from '../components/hakkimizda'
 import Contact from '../components/contact/contact'
 
 const home = () => {
@@ -9,6 +9,7 @@ const home = () => {
         <Hero />
         <Hakkimizda />
         <Contact />
+
      
     </div>
   )
