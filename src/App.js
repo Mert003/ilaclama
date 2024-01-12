@@ -7,10 +7,12 @@ function App() {
   return (
     <div className="App">
       <NavigationBar />
+      <Router>
           <Routes  forceRefresh={true}>
                <Route path="/" element={<Home /> } />
               
           </Routes>
+          </Router>
     </div>
   );
 }
