@@ -8,7 +8,6 @@ import ag225 from "../../images/ag225.jpg";
 import ag325 from "../../images/ag325.jpg";
 import ag113 from "../../images/ag113.jpg";
 import ag715 from "../../images/ag715.jpg";
-import ultrasonik from "../../images/ultrasonik.jpg";
 import { Link } from "react-router-dom";
 import "./urunler.css";
 import "../../styles/animation.css";
@@ -60,14 +59,7 @@ const Farekovucu = () => {
                         <p>Etki Alani: 150 m2</p>
                     </div></Link>
                 </Col>
-                <Col className='col-12 col-md-4' id="animasyon">
-                <Link to="/ultrasonik" onClick={()=>{window.scrollTo(0, 0);}}>
-                    <div className="column">
-                        <img src={ultrasonik} alt="fdsfsd 3" style={{ width: "224px", height: "143px", objectFit: "contain" }} />
-                        <h3>Ultrasonik ve Sonik Atak Kus Kovucu</h3>
-                        <p>Etki Alani: 1000 m2</p>
-                    </div></Link>
-                </Col>
+               
             </Row>
             <Row className='my-5 w-75 m-auto' >
                 <Col className='col-12 col-lg-9 mx-auto'>
