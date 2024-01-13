@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 /* import 'bootstrap/dist/css/bootstrap.min.css'; */
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css"
+import { PiNumberEight } from "react-icons/pi";
+
 import { Link } from 'react-router-dom';
 import "./navbar.css";
 import logo from "../../images/logo.png";
@@ -14,7 +16,17 @@ const NavigationBar = () => {
   return (
     <Navbar expanded={expanded} expand="lg" bg="dark" variant="dark" className='p-0'>
       <Container className='p-0'>
-        <Navbar.Brand href="#home" className='d-flex align-items-center'><Link to="/"> <img src={logo} width={100} height={100} alt='asdsadsd'/></Link><h5 className='d-flex d-md-none'>Atlas Tel&Haşere</h5></Navbar.Brand>
+        <Navbar.Brand href="#home" className='d-flex align-items-center'><Link to="/"> <img src={logo} width={100} height={100} alt='asdsadsd' /></Link>
+          <div className='d-flex d-md-none flex-column justify-content-center'>
+          <h5 className='d-flex d-md-none'>Atlas</h5>
+         <div className='d-flex d-md-none flex-row align-items-center'> <p style={{fontSize:"7px",marginBottom:0}}>Kuş Konmaz Telleri ve Haşereci</p><PiNumberEight style={{transform:"rotate(90deg)"}} /></div>
+
+
+          </div>
+
+        </Navbar.Brand>
+
+
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
           onClick={() => setExpanded(!expanded)}

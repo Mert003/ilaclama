@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import emailjs from 'emailjs-com';
+import Contact from '../components/contact/contact';
 
 
 const ContactPage = () => {
@@ -64,6 +65,12 @@ const ContactPage = () => {
           <div className='embed-responsive embed-responsive-16by9'>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.451819438166!2d29.401472775983716!3d40.79606417138105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cadf9b055d9a2f%3A0x773bf0136068a880!2zS8O2xZ9rbMO8IMOHZcWfbWUsIDUzMC8yLiBTay4gTm86MTMsIDQxNDAwIEdlYnplL0tvY2FlbGksIFTDvHJraXll!5e0!3m2!1sen!2sus!4v1705082487881!5m2!1sen!2sus" width="100%" height="450" title='adresiniz'  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
+        </Col>
+      </Row>
+
+      <Row className='mt-5'>
+        <Col>
+        <Contact />
         </Col>
       </Row>
     </Container>
