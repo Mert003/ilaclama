@@ -61,11 +61,11 @@ const Kusengelleyici = () => {
 
       </Row>
 
-      <Row>
-        <Col>
-        <img src={foto2} alt='fasda' width="50%"  style={{objectFit:"contain"}} />
+      <Row className='my-5'>
+        <Col className='col-12 col-md-6'>
+        <img src={foto2} alt='fasda' className='w-75 w-md-50' style={{objectFit:"contain"}} />
         </Col>
-        <Col>
+        <Col className='col-12 col-md-6'>
           <p>
             Polipropilen veya polietilen materyalden üretilen ağlar güneşin ultraviyole ışınlarına karşı dayanıklıdır. Ayrıca, çok hafif olması montaj kolaylığı sağlamaktadır. Bina yapısına göre istenilen ölçüde hazırlanabilir.
             <br /> <br />
@@ -79,9 +79,9 @@ const Kusengelleyici = () => {
        
       </Row>
 
-      <Row>
+      <Row className='my-5'>
         
-        <Col>
+        <Col className='col-12 col-md-6 order-2 order-md-1'>
           <h3>Kullanım Alanları</h3>
           <ul>
             <li>Balkonlarda</li>
@@ -91,8 +91,8 @@ const Kusengelleyici = () => {
             <li>Kuşların girmesini istemediğimiz her yerde kullanılabilir</li>
           </ul>
         </Col>
-        <Col>
-          <img src={foto3} width="50%" style={{objectFit:"contain"}} alt='sdtfdf' />
+        <Col className='col-12 col-md-6 order-1 order-md-2'>
+          <img src={foto3} className='w-75 w-md-50' style={{objectFit:"contain"}} alt='sdtfdf' />
         </Col>
 
       </Row>
