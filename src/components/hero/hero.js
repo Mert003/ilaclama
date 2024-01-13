@@ -14,7 +14,7 @@ const Hero = () => {
       <Row >
        
       <Col className='col-12 col-md-6' id='animasyon' >
-      <Link to="/farehasere">
+      <Link to="/farehasere" onClick={()=>{window.scrollTo(0, 0);}}>
           <Image src={kusengelleyici} alt="Image 2" fluid />
         
           <h3>Fare Haşere Kovucu</h3>
@@ -25,7 +25,7 @@ const Hero = () => {
 
   
         <Col className='col-12 col-md-6' id='animasyon'>
-        <Link to="/kuskovucu">
+        <Link to="/kuskovucu" onClick={()=>{window.scrollTo(0, 0);}}>
           <Image src={kedi} alt="Image 1" fluid  />
           
           <h3>Kuş Kovucu Sistemler</h3>
@@ -36,7 +36,7 @@ const Hero = () => {
 
     
         <Col className='col-12 col-md-6 my-5' id='animasyon'>
-        <Link to="/kusengelleyici">
+        <Link to="/kusengelleyici" onClick={()=>{window.scrollTo(0, 0);}}>
           <Image src={kuskovucu} alt="Image 2" fluid />
         
           <h3>Kuş Engelleyiciler</h3>
@@ -47,7 +47,7 @@ const Hero = () => {
 
         
         <Col className='col-12 col-md-6 my-5' id='animasyon'>
-        <Link to="/kedikopekkovucu">
+        <Link to="/kedikopekkovucu" onClick={()=>{window.scrollTo(0, 0);}}>
           <Image src={kedi2} alt="Image 3" fluid />
           
           <h3>Kedi Köpek Kovucu</h3>
