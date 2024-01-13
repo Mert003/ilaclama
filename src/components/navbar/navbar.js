@@ -19,7 +19,7 @@ const NavigationBar = () => {
         <Navbar.Brand href="#home" className='d-flex align-items-center'><Link to="/"> <img src={logo} width={100} height={100} alt='asdsadsd' /></Link>
           <div className='d-flex d-md-none flex-column justify-content-center'>
           <h5 className='d-flex d-md-none'>Atlas</h5>
-         <div className='d-flex d-md-none flex-row align-items-center'> <p style={{fontSize:"7px",marginBottom:0}}>Kuş Konmaz Telleri & Haşereci</p></div>
+         <div className='d-flex d-md-none flex-row align-items-center'> <p style={{fontSize:"7px",marginBottom:0}}>Kuş Konmaz Telleri &#38; Haşereci</p></div>
 
 
           </div>
