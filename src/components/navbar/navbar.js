@@ -16,9 +16,9 @@ const NavigationBar = () => {
     <Navbar expanded={expanded} expand="lg" bg="dark" variant="dark" className='p-0'>
       <Container className='p-0'>
         <Navbar.Brand href="#home" className='d-flex align-items-center'><Link to="/"> <img src={logo} width={100} height={100} alt='asdsadsd' /></Link>
-          <div className='d-flex d-md-none flex-column justify-content-center align-items-center'>
-          <h2 className='d-flex d-md-none m-0'>ATLAS</h2>
-         <div className='d-flex d-md-none flex-row align-items-center '> <p style={{fontSize:"12px",marginBottom:0}}>Kuş Konmaz Telleri &#38; Haşere Cihazları</p></div>
+          <div className='d-flex flex-column justify-content-center align-items-center'>
+          <h2 className='d-flex  m-0'>ATLAS</h2>
+         <div className='d-flex flex-row align-items-center '> <p style={{fontSize:"12px",marginBottom:0}}>Kuş Konmaz Telleri &#38; Haşere Cihazları</p></div>
 
 
           </div>

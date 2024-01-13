@@ -20,7 +20,8 @@ const Contact = () => {
         <div className="column">
            <FaLocationDot size={30} /> 
           <h3>Adresimiz</h3>
-          <p>Köşklüçeşme mahallesi 530/2 sokak no 13</p>
+          <p>Köşklüçeşme mahallesi 530/2 sokak no:13 Kocaeli/Gebze </p>
+         
         </div>
       </Col>
       <Col>
