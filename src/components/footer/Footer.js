@@ -17,11 +17,11 @@ function Footer() {
           {/* Menu Column */}
           <h5>Ürünlerimiz</h5>
           <ul className="list-unstyled">
-            <Link to="/farehasere" offset={50}><li>Fare Haşere Kovucu </li></Link>
+            <Link to="/farehasere" offset={50} onClick={()=>{window.scrollTo(0, 0);}}><li>Fare Haşere Kovucu </li></Link>
 
-            <Link to="/kuskovucu" offset={50}><li>Kuş Kovucu Sistemler</li></Link>
-            <Link to="/kusengelleyici" offset={50}><li>Kuş Engelleyiciler</li></Link>
-            <Link to="/kedikopekkovucu" offset={50}><li>Kedi Köpek Kovucu</li></Link>
+            <Link to="/kuskovucu" offset={50} onClick={()=>{window.scrollTo(0, 0);}}><li>Kuş Kovucu Sistemler</li></Link>
+            <Link to="/kusengelleyici" offset={50} onClick={()=>{window.scrollTo(0, 0);}}><li>Kuş Engelleyiciler</li></Link>
+            <Link to="/kedikopekkovucu" offset={50} onClick={()=>{window.scrollTo(0, 0);}}><li>Kedi Köpek Kovucu</li></Link>
           </ul>
         </Col>
 
@@ -29,10 +29,10 @@ function Footer() {
           {/* Menu Column */}
           <h5>Menu</h5>
           <ul className="list-unstyled">
-            <Link to="/" offset={50}><li>Anasayfa</li></Link>
+            <Link to="/" offset={50} onClick={()=>{window.scrollTo(0, 0);}}><li>Anasayfa</li></Link>
 
-            <Link to="/iletisim" offset={50}><li>İletişim</li></Link>
-            <Link to="/hakkimizda" offset={50}><li>Hakkımızda</li></Link>
+            <Link to="/iletisim" offset={50} onClick={()=>{window.scrollTo(0, 0);}}><li>İletişim</li></Link>
+            <Link to="/hakkimizda" offset={50} onClick={()=>{window.scrollTo(0, 0);}}><li>Hakkımızda</li></Link>
           </ul>
         </Col>
         <Col md={4}>
