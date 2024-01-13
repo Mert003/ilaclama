@@ -18,14 +18,14 @@ const Farekovucu = () => {
         <Container className='my-5'>
             <Row className='d-flex'>
                 <Col className='col-12 col-md-4' id="animasyon">
-                    <Link to="/ag450">
+                    <Link to="/ag450" onClick={()=>{window.scrollTo(0, 0);}}>
                     <div className="column">
                         <img src={ag450} alt="fdsfsd 1" style={{ width: "224px", height: "143px", objectFit: "contain" }} />
                         <h3>AG-450 Ultrasonik Frekans Fare Kus ve Yarasa Kovucu Cihaz</h3>
                         <p>Etki Alani: 720 m2</p>
                     </div></Link>
                 </Col>
-                <Col  className='col-12 col-md-4' id="animasyon"><Link to="/ag225">
+                <Col  className='col-12 col-md-4' id="animasyon"><Link to="/ag225" onClick={()=>{window.scrollTo(0, 0);}}>
                     <div className="column">
                         <img src={ag225} alt="fdsfsd 2" style={{ width: "224px", height: "143px", objectFit: "contain" }} />
                         <h3>AG-225 Ultrasonik Fare ve Haşere Kovucu Cihaz</h3>
@@ -33,7 +33,7 @@ const Farekovucu = () => {
                     </div></Link>
                 </Col>
 
-                <Col className='col-12 col-md-4' id="animasyon"> <Link to="/ag325">
+                <Col className='col-12 col-md-4' id="animasyon"> <Link to="/ag325" onClick={()=>{window.scrollTo(0, 0);}}>
                     <div className="column">
                         <img src={ag325} alt="fdsfsd 3" style={{ width: "224px", height: "143px", objectFit: "contain" }} />
                         <h3>AG-325 Fare ve Hasere Kovucu Cihaz</h3>
@@ -43,7 +43,7 @@ const Farekovucu = () => {
             </Row>
             <Row>
                 <Col className='col-12 col-md-4' id="animasyon">
-                    <Link to="/ag715">
+                    <Link to="/ag715" onClick={()=>{window.scrollTo(0, 0);}}>
                         <div className="column">
 
                             <img src={ag715} alt="fdsfsd 1" style={{ width: "224px", height: "143px", objectFit: "contain" }} />
@@ -53,7 +53,7 @@ const Farekovucu = () => {
 
                 </Col>
                 <Col className='col-12 col-md-4' id="animasyon">
-                <Link to="/ag113">
+                <Link to="/ag113" onClick={()=>{window.scrollTo(0, 0);}}>
                     <div className="column">
                         <img src={ag113} alt="fdsfsd 2" style={{ width: "224px", height: "143px", objectFit: "contain" }} />
                         <h3>AG-113s Ultrasonik Frekans Fare ve Hasere Kovucu</h3>
@@ -61,7 +61,7 @@ const Farekovucu = () => {
                     </div></Link>
                 </Col>
                 <Col className='col-12 col-md-4' id="animasyon">
-                <Link to="/ultrasonik">
+                <Link to="/ultrasonik" onClick={()=>{window.scrollTo(0, 0);}}>
                     <div className="column">
                         <img src={ultrasonik} alt="fdsfsd 3" style={{ width: "224px", height: "143px", objectFit: "contain" }} />
                         <h3>Ultrasonik ve Sonik Atak Kus Kovucu</h3>

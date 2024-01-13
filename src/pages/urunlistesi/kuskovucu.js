@@ -15,7 +15,7 @@ const Kuskovucu = () => {
     <Container className='my-5'>
       <Row>
         <Col>
-        <Link to="/ultrasonik">
+        <Link to="/ultrasonik" onClick={()=>{window.scrollTo(0, 0);}}>
           <div className="column">
             <img src={ultrasonik} alt="fdsfsd 1" style={{width:"276px",height:"202px"}}/>
             <h3>Ultrasonik ve Sonik Atak Cihazi</h3>
@@ -41,7 +41,7 @@ const Kuskovucu = () => {
           </Link>
         </Col>
         <Col>
-        <Link to="/ag450">
+        <Link to="/ag450" onClick={()=>{window.scrollTo(0, 0);}}>
           <div className="column">
             <img src={ag450} alt="fdsfsd 2" style={{width:"276px",height:"202px"}}/>
             <h3>Ultrasonik kus ve yarasa kovucu</h3>
