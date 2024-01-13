@@ -3,7 +3,6 @@ import React, { useState } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 /* import 'bootstrap/dist/css/bootstrap.min.css'; */
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import { PiNumberEight } from "react-icons/pi";
 
 import { Link } from 'react-router-dom';
 import "./navbar.css";
