@@ -31,7 +31,6 @@ const Kusengelleyici = () => {
               <li>Özel bir bakıma gerek yok...</li>
               <li>Uzun ömürlü paslanmaz çelik + polikarbonattab imal edilmiştir.</li>
               <li>Bina dışından kesinlikle farkedilmez. Estetik görünümü olumsuz etkilemez.</li>
-              <li>Montajı kolay. Silikon tutkal yada vida kullanarak her türlü zemine kolayca monte edilebilir.</li>
               <li>Kolayca kırılıp gerektiğinde boy ayarlaması yapılabilir.</li>
               <li>Kuşlara kesinlikle %100 zararsızdır!</li>
               <li>Kullanma Kılavuzu
