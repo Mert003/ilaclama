@@ -8,7 +8,7 @@ import logo from "../../images/logo.png";
 
 // Your Navbar component
 const NavigationBar = () => {
-  const [expanded, setExpanded] = useState(false);
+  const [expanded, setExpanded] = useState(true);
 
   return (
     <Navbar expanded={expanded} expand="lg" bg="dark" variant="dark" className='p-0'>
@@ -16,7 +16,7 @@ const NavigationBar = () => {
         <Navbar.Brand href="#home"><img src={logo} width={100} height={100} alt='asdsadsd'/></Navbar.Brand>
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
-         
+          onClick={() => setExpanded(!expanded)}
         />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
