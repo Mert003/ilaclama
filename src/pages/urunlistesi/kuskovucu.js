@@ -53,7 +53,7 @@ const Kuskovucu = () => {
               <li>Depolar, fabrikalar ve çiftlikler gibi büyük alanlarda kullanım amacıyla tasarlanmıştır.</li>
               <li>10 değişik ultrasonik atak kovucu frekans ayarlanabilme özellikli</li>
               <li>Ev, Bina çatıları, Depolar, Otel ve Fabrika gibi yerlerde kullanmaya uygun</li>
-              <li>Teknik personelimizle montaj dahil hizmet</li>
+           
               <li>2 sene garantili</li>
               <li>Ultrasonik atak kus kovucu kullanma klavuzu</li>
             </ul>

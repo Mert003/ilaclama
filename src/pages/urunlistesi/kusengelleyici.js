@@ -1,7 +1,10 @@
 // TwoColumnRow.js
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import foto from "../../images/kusengelleyici2.jpg";
+import foto from "../../images/tel.jpeg";
+import foto2 from "../../images/tel2.jpeg";
+import foto3 from "../../images/tel3.jpeg";
+
 import samplePDF from "../../pdfs/kusengelleyici.pdf";
 import { FaFilePdf } from 'react-icons/fa';
 
@@ -61,6 +64,9 @@ const Kusengelleyici = () => {
 
       <Row>
         <Col>
+        <img src={foto2} alt='fasda' width="50%"  style={{objectFit:"contain"}} fluid/>
+        </Col>
+        <Col>
           <p>
             Polipropilen veya polietilen materyalden üretilen ağlar güneşin ultraviyole ışınlarına karşı dayanıklıdır. Ayrıca, çok hafif olması montaj kolaylığı sağlamaktadır. Bina yapısına göre istenilen ölçüde hazırlanabilir.
             <br /> <br />
@@ -71,6 +77,11 @@ const Kusengelleyici = () => {
             <strong>EBATLAR:</strong> 19mm, 38mm, 50mm, 75mm ve 100mm
           </p>
         </Col>
+       
+      </Row>
+
+      <Row>
+        
         <Col>
           <h3>Kullanım Alanları</h3>
           <ul>
@@ -81,6 +92,10 @@ const Kusengelleyici = () => {
             <li>Kuşların girmesini istemediğimiz her yerde kullanılabilir</li>
           </ul>
         </Col>
+        <Col>
+          <img src={foto3} width="50%" style={{objectFit:"contain"}} alt='sdtfdf' />
+        </Col>
+
       </Row>
     </Container >
   );
