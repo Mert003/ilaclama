@@ -63,7 +63,7 @@ const Kusengelleyici = () => {
 
       <Row>
         <Col>
-        <img src={foto2} alt='fasda' width="50%"  style={{objectFit:"contain"}} fluid/>
+        <img src={foto2} alt='fasda' width="50%"  style={{objectFit:"contain"}} />
         </Col>
         <Col>
           <p>
