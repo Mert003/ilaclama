@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import kedi from "../../images/ag715.jpg"
 import kedi2 from "../../images/ag113.jpg"
 import kusengelleyici from "../../images/ag450.jpg";
