@@ -1,14 +1,15 @@
 // Import necessary components and styling
 import React, { useState } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+/* import 'bootstrap/dist/css/bootstrap.min.css'; */
+import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import { Link } from 'react-router-dom';
 import "./navbar.css";
 import logo from "../../images/logo.png";
 
 // Your Navbar component
 const NavigationBar = () => {
-  const [expanded, setExpanded] = useState(true);
+  const [expanded, setExpanded] = useState(false);
 
   return (
     <Navbar expanded={expanded} expand="lg" bg="dark" variant="dark" className='p-0'>
