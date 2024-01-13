@@ -21,13 +21,13 @@ const NavigationBar = () => {
         />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-            <Link to="/" className="nav-link">Anasayfa </Link>
-            <Link to="/farehasere" className="nav-link">Fare Haşere Kovucu </Link>
-            <Link to="/kuskovucu" className="nav-link">Kuş Kovucu Sistemler </Link>
-            <Link to="/kusengelleyici" className="nav-link">Kuş Engelleyiciler </Link>
-            <Link to="/kedikopekkovucu" className="nav-link">Kedi Köpek kovucular </Link>
-            <Link to="/hakkimizda" className="nav-link">Hakkımızda </Link>
-            <Link to="/iletisim" className="nav-link">İletişim</Link>
+            <Link to="/" className="nav-link" onClick={() => setExpanded(!expanded)}>Anasayfa </Link>
+            <Link to="/farehasere" className="nav-link" onClick={() => setExpanded(!expanded)}>Fare Haşere Kovucu </Link>
+            <Link to="/kuskovucu" className="nav-link" onClick={() => setExpanded(!expanded)}>Kuş Kovucu Sistemler </Link>
+            <Link to="/kusengelleyici" className="nav-link" onClick={() => setExpanded(!expanded)}>Kuş Engelleyiciler </Link>
+            <Link to="/kedikopekkovucu" className="nav-link" onClick={() => setExpanded(!expanded)}>Kedi Köpek kovucular </Link>
+            <Link to="/hakkimizda" className="nav-link" onClick={() => setExpanded(!expanded)}>Hakkımızda </Link>
+            <Link to="/iletisim" className="nav-link" onClick={() => setExpanded(!expanded)}>İletişim</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
