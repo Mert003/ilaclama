@@ -1,6 +1,7 @@
 // TwoRowsThreeColumns.js
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+/* import 'bootstrap/dist/css/bootstrap.min.css'; */
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import ag450 from "../../images/ag450.jpg";
 import ag225 from "../../images/ag225.jpg";
@@ -10,19 +11,21 @@ import ag715 from "../../images/ag715.jpg";
 import ultrasonik from "../../images/ultrasonik.jpg";
 import { Link } from "react-router-dom";
 import "./urunler.css";
+import "../../styles/animation.css";
 
 const Farekovucu = () => {
     return (
         <Container className='my-5'>
             <Row className='d-flex'>
-                <Col style={{ flex: "1" }}><Link to="/ag450">
+                <Col className='col-12 col-md-4' id="animasyon">
+                    <Link to="/ag450">
                     <div className="column">
                         <img src={ag450} alt="fdsfsd 1" style={{ width: "224px", height: "143px", objectFit: "contain" }} />
                         <h3>AG-450 Ultrasonik Frekans Fare Kus ve Yarasa Kovucu Cihaz</h3>
                         <p>Etki Alani: 720 m2</p>
                     </div></Link>
                 </Col>
-                <Col style={{ flex: "1" }}><Link to="/ag225">
+                <Col  className='col-12 col-md-4' id="animasyon"><Link to="/ag225">
                     <div className="column">
                         <img src={ag225} alt="fdsfsd 2" style={{ width: "224px", height: "143px", objectFit: "contain" }} />
                         <h3>AG-225 Ultrasonik Fare ve Haşere Kovucu Cihaz</h3>
@@ -30,7 +33,7 @@ const Farekovucu = () => {
                     </div></Link>
                 </Col>
 
-                <Col style={{ flex: "1" }}> <Link to="/ag325">
+                <Col className='col-12 col-md-4' id="animasyon"> <Link to="/ag325">
                     <div className="column">
                         <img src={ag325} alt="fdsfsd 3" style={{ width: "224px", height: "143px", objectFit: "contain" }} />
                         <h3>AG-325 Fare ve Hasere Kovucu Cihaz</h3>
@@ -39,7 +42,7 @@ const Farekovucu = () => {
                 </Col>
             </Row>
             <Row>
-                <Col>
+                <Col className='col-12 col-md-4' id="animasyon">
                     <Link to="/ag715">
                         <div className="column">
 
@@ -49,7 +52,7 @@ const Farekovucu = () => {
                         </div></Link>
 
                 </Col>
-                <Col>
+                <Col className='col-12 col-md-4' id="animasyon">
                 <Link to="/ag113">
                     <div className="column">
                         <img src={ag113} alt="fdsfsd 2" style={{ width: "224px", height: "143px", objectFit: "contain" }} />
@@ -57,7 +60,7 @@ const Farekovucu = () => {
                         <p>Etki Alani: 150 m2</p>
                     </div></Link>
                 </Col>
-                <Col>
+                <Col className='col-12 col-md-4' id="animasyon">
                 <Link to="/ultrasonik">
                     <div className="column">
                         <img src={ultrasonik} alt="fdsfsd 3" style={{ width: "224px", height: "143px", objectFit: "contain" }} />
@@ -66,8 +69,8 @@ const Farekovucu = () => {
                     </div></Link>
                 </Col>
             </Row>
-            <Row className='my-5 w-75 m-auto'>
-                <Col>
+            <Row className='my-5 w-75 m-auto' >
+                <Col className='col-12 col-lg-9 mx-auto'>
                     <h3>Montaj Önerileri</h3>
                     <p>Cihazların yerden yüksekliĝi yaklaşık olarak 50 ila 80 cm kadar olmalıdır.
                         Fare ve haşere kovucu ultrasonik ses cihazları mümkünse giriş ve çıkış kapısına yakın bir yere monte edilmelidir

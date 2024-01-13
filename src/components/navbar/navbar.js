@@ -4,15 +4,16 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
 import "./navbar.css";
+import logo from "../../images/logo.png";
 
 // Your Navbar component
 const NavigationBar = () => {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <Navbar expanded={expanded} expand="lg" bg="dark" variant="dark">
-      <Container>
-        <Navbar.Brand href="#home">Your Brand</Navbar.Brand>
+    <Navbar expanded={expanded} expand="lg" bg="dark" variant="dark" className='p-0'>
+      <Container className='p-0'>
+        <Navbar.Brand href="#home"><img src={logo} width={100} height={100} /></Navbar.Brand>
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
           onClick={() => setExpanded(!expanded)}
