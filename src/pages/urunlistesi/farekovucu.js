@@ -20,7 +20,7 @@ const Farekovucu = () => {
                     <Link to="/ag450" onClick={()=>{window.scrollTo(0, 0);}}>
                     <div className="column">
                         <img src={ag450} alt="fdsfsd 1" style={{ width: "224px", height: "143px", objectFit: "contain" }} />
-                        <h3>AG-450 Ultrasonik Frekans Fare Kus ve Yarasa Kovucu Cihaz</h3>
+                        <h3>AG-450 Ultrasonik Frekans Fare Kuş ve Yarasa Kovucu Cihaz</h3>
                         <p>Etki Alani: 720 m2</p>
                     </div></Link>
                 </Col>
