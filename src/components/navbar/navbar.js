@@ -14,7 +14,7 @@ const NavigationBar = () => {
   return (
     <Navbar expanded={expanded} expand="lg" bg="dark" variant="dark" className='p-0'>
       <Container className='p-0'>
-        <Navbar.Brand href="#home"><img src={logo} width={100} height={100} alt='asdsadsd'/></Navbar.Brand>
+        <Navbar.Brand href="#home"><Link to="/"> <img src={logo} width={100} height={100} alt='asdsadsd'/></Link></Navbar.Brand>
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
           onClick={() => setExpanded(!expanded)}
