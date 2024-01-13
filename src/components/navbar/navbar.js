@@ -14,7 +14,7 @@ const NavigationBar = () => {
   return (
     <Navbar expanded={expanded} expand="lg" bg="dark" variant="dark" className='p-0'>
       <Container className='p-0'>
-        <Navbar.Brand href="#home" className='d-flex align-items-center'><Link to="/"> <img src={logo} width={100} height={100} alt='asdsadsd'/></Link><h3 className='d-flex d-md-none'>Atlas Tel&Haşere</h3></Navbar.Brand>
+        <Navbar.Brand href="#home" className='d-flex align-items-center'><Link to="/"> <img src={logo} width={100} height={100} alt='asdsadsd'/></Link><h5 className='d-flex d-md-none'>Atlas Tel&Haşere</h5></Navbar.Brand>
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
           onClick={() => setExpanded(!expanded)}
